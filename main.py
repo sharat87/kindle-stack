@@ -99,9 +99,12 @@ def send_to_kindle(site, question_id, email):
 def make_webapp():
     app = Flask(__name__)
 
+    with open('index.html') as f:
+        index_content = f.read()
+
     @app.route('/')
     def index():
-        return ('Hello. Welcome to kindle-stack. An app by @sharat87.<hr>')
+        return index_content
 
     @app.route('/send', methods=['POST'])
     def send():

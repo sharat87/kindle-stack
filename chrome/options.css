@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic);
+
+html {
+    color: #333;
+}
+
+body {
+    margin: 10px auto;
+    border: thin solid gray;
+    width: 640px;
+    font-size: 16px;
+    padding: 12px;
+    font-family: "Gentium Basic", serif;
+}
+
+h1 {
+    font-size: 2.7em;
+}
+
+span, input {
+    font-size: 2em;
+    font-family: "Gentium Basic", serif;
+    color: #333;
+}
+
+#submit-btn {
+    font-size: 2em;
+    font-family: "Gentium Basic", serif;
+    width: 180px;
+    margin-right: 6px;
+}
+
+#email-input {
+    border: thin solid gray;
+    border-radius: 2px;
+    padding: 2px;
+    font-family: "Gentium Basic", serif;
+    display: block;
+    width: 600px;
+}

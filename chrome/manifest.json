@@ -1,0 +1,17 @@
+{
+    "name": "Kindle-stack",
+    "version": "0.1",
+    "description": "Send stackexchange questions to kindle for peaceful reading.",
+    "icons": {
+        "16": "res/logo-16.png",
+        "48": "res/logo-48.png",
+        "128": "res/logo-128.png"
+    },
+    "permissions": ["http://*/*", "https://*/*"],
+    "background_page": "background.html",
+    "options_page": "options.html",
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["jquery-1.7.2.min.js", "content-script.js"]
+    }]
+}

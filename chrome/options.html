@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset=utf-8>
+        <title>Options &mdash; kindle-stack</title>
+        <link rel=stylesheet href=options.css>
+        <script src=jquery-1.7.2.min.js></script>
+        <script>
+            jQuery(function ($) {
+                var emailInput = $('#email-input'),
+                    submitBtn = $('#submit-btn');
+
+                $('#options-form').submit(function (e) {
+                    e.preventDefault();
+                    localStorage.kindleEmail = emailInput.val();
+                    $('<span>Saved!</span>').insertAfter(submitBtn)
+                        .delay(2000).fadeOut();
+                });
+
+                emailInput.val(localStorage.kindleEmail || '');
+
+                if (localStorage.version) {
+                    $('#page-title').append(' v' + localStorage.version);
+                }
+            });
+        </script>
+
+    <body>
+
+        <h1 id=page-title>Kindle-stack</h1>
+
+        <form action="" id=options-form>
+            <label>
+                <span>Kindle email address:</span>
+                <input type=email id=email-input required autofocus>
+            </label>
+            <input id=submit-btn type=submit value=Save>
+        </form>

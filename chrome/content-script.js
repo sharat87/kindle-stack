@@ -39,8 +39,8 @@ jQuery(function ($) {
 
             chrome.extension.sendRequest('get-email', function (email) {
                 if (!email) {
-                    chrome.extension.sendRequest('open-options');
                     restoreImage();
+                    chrome.extension.sendRequest('open-options');
                     return;
                 }
                 $.ajax({

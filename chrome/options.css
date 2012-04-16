@@ -5,16 +5,20 @@ html {
 }
 
 body {
-    margin: 10px auto;
-    border: thin solid gray;
+    margin: 0 auto;
     width: 640px;
     font-size: 16px;
-    padding: 12px;
     font-family: "Gentium Basic", serif;
 }
 
 h1 {
     font-size: 2.7em;
+}
+
+#options-form {
+    border: thin solid #DDD;
+    border-radius: 2px;
+    padding: 12px;
 }
 
 span, input {
@@ -37,4 +41,25 @@ span, input {
     font-family: "Gentium Basic", serif;
     display: block;
     width: 600px;
+    margin: 6px 0;
+}
+
+#instructions {
+    margin-top: 12px;
+    background-color: #FFEEB0;
+    border-radius: 2px;
+    padding: 12px;
+    font-size: 1.3em;
+}
+
+#instructions a {
+    display: inline-block;
+}
+
+#about {
+    margin-top: 12px;
+    background-color: #D3DFEB;
+    border-radius: 2px;
+    padding: 12px;
+    font-size: 1.3em;
 }

@@ -1,6 +1,6 @@
 {
     "name": "Kindle-stack",
-    "version": "0.1",
+    "version": "0.2",
     "description": "Send stackexchange questions to kindle for peaceful reading.",
     "icons": {
         "16": "res/logo-16.png",

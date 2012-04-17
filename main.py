@@ -79,7 +79,10 @@ def answer_sort_key(ans):
 def send_to_kindle(site, question_id, email):
     data = get_data(site, question_id)['items'][0]
 
-    data['answers'].sort(key=answer_sort_key, reverse=True)
+    if 'answers' in data:
+        data['answers'].sort(key=answer_sort_key, reverse=True)
+    else:
+        data['answers'] = []
 
     tloc = tempfile.mkdtemp(prefix='tmp-kindle-stack-')
 

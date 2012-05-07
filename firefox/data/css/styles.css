@@ -1,0 +1,141 @@
+body.pow-hd {
+	font-size: 16px;
+	padding-top: 30px;
+}
+
+span.pow-flink {
+    background: #FFFFCC;
+    cursor: pointer;
+}
+
+span.pow-flink:hover {
+    background: yellow;
+}
+
+body.pow-hd-search input.status-check {
+    vertical-align: middle;
+}
+
+body.pow-hd a.atch-link {
+    background: #DDD;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    padding: 2px 6px;
+    font-weight: normal !important;
+    text-decoration: none !important;
+    text-shadow: 0 1px 2px beige;
+    cursor: default;
+    display: inline-block;
+    box-shadow: 0 1px 2px white inset;
+}
+
+body.pow-hd a.atch-link:hover {
+    background: #CCC;
+    color: black;
+}
+
+body.pow-hd a.atch-link:active {
+    background: #AAA;
+}
+
+body.pow-hd a.atch-link .delete {
+    margin-left: 6px;
+    color: red;
+}
+
+body.pow-hd a.atch-link .delete:hover {
+    background: red;
+    color: white;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+
+div.pow-flash {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-box-shadow: 2px 2px 5px gray;
+    background: maroon;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    opacity: 0.9;
+    padding: 6px 14px;
+    position: fixed;
+    right: 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px beige;
+    top: 20px;
+}
+
+div.pow-focus-bar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 3px 12px;
+	background: gray;
+	color: white;
+	font-size: 16px;
+}
+
+div.pow-focus-bar.pow-priority-1 {
+	background: orange;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F70D05), to(#E31700));
+	background-image: -moz-gradient(linear, 0% 0%, 270deg, #F70D05, #E31700);
+	color: white;
+}
+
+div.pow-focus-bar.pow-priority-2 {
+	background: orange;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EB9C00), to(#E38100));
+	background-image: -moz-linear-gradient(0% 0%, 270deg, #EB9C00, #E38100);
+	color: white;
+}
+
+div.pow-focus-bar.pow-priority-3 {
+	background: orange;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F7D602), to(#D4BF02));
+	background-image: -moz-linear-gradient(0% 0%, 270deg, #F7D602, #D4BF02);
+	color: black;
+}
+
+div.pow-focus-bar.pow-priority-4 {
+	background: orange;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#DFF705), to(#B4CF02));
+	background-image: -moz-linear-gradient(0% 0%, 270deg, #DFF705, #B4CF02);
+	color: black;
+}
+
+div.pow-focus-bar.pow-priority-5 {
+	background: orange;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8EF705), to(#76CF02));
+	background-image: -moz-linear-gradient(0% 0%, 270deg, #8EF705, #76CF02);
+	color: black;
+}
+
+div.pow-focus-bar.pow-priority-6 {
+	background: orange;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8EF705), to(#76CF02));
+	background-image: -moz-linear-gradient(0% 0%, 0% 100%, from(#8EF705), to(#76CF02));
+	color: black;
+}
+
+div.pow-focus-bar span.pow-hd-id {
+	margin-right: 10px;
+}
+
+table.pow-hd-entry {
+    border-collapse: collapse;
+}
+
+table.pow-hd-entry tr:nth-child(even) {
+    background-color: rgba(245, 245, 245, .3);
+}
+
+table.pow-hd-entry tr:hover {
+    background-color: rgba(210, 210, 210, .4);
+}
+
+font {
+    font-family: "Lucida Sans", Verdana, Ubuntu !important;
+}

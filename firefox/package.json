@@ -1,0 +1,9 @@
+{
+    "name": "kindle-stack",
+    "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
+    "author": "Shrikant Sharat Kandula",
+    "version": "0.1",
+    "fullName": "kindle-stack",
+    "id": "jid1-bEyTKzzFjKLvUA",
+    "description": "Send a Stack Exchange question to kindle."
+}

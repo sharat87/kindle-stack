@@ -2,3 +2,6 @@ syntax: glob
 secrets.py
 chrome
 kindle-stack-chrome.zip
+firefox/ext/**
+firefox/kindle-stack.xpi
+firefox/addon-sdk-1.6.1/profile/**

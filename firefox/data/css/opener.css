@@ -1,0 +1,47 @@
+body, input {
+    font-size: 1em;
+    font-family: "Lucida Sans", sans-serif;
+}
+
+#opener-forms {
+    /* float: right; */
+}
+
+#opener-forms::after {
+    clear: both;
+}
+
+input[type="text"] {
+    border: thin solid gray;
+    padding: 3px 7px;
+    border-radius: 2px;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0 0 3px rgba(0, 0, 255, .4) inset;
+    outline: none;
+}
+
+.error-msg {
+    color: red;
+}
+
+#hdHistory {
+    margin-top: 20px;
+}
+
+#hdHistory a {
+    display: block;
+    text-decoration: none;
+    padding: 3px 10px;
+    border-top: thin dotted gray;
+    border-bottom: thin dotted gray;
+}
+
+#hdHistory a + a {
+    border-bottom: thin dotted gray;
+}
+
+#hdHistory a:hover {
+    background-color: #F0F0F0;
+}

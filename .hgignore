@@ -1,6 +1,5 @@
 syntax: glob
 secrets.py
-chrome
 kindle-stack-chrome.zip
 firefox/ext/**.*
 firefox/kindle-stack.xpi

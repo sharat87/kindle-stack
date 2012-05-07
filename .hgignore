@@ -1,2 +1,4 @@
 syntax: glob
 secrets.py
+chrome
+kindle-stack-chrome.zip
